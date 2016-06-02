@@ -9,7 +9,6 @@ MainWindow::MainWindow(QWidget *parent) :
     ui->setupUi(this);
     setAcceptDrops(true);
 
-    ui->graphicsView->update();
 }
 
 MainWindow::~MainWindow()
